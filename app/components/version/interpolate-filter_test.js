@@ -1,7 +1,7 @@
 'use strict';
 
 describe('AMS.version module', function() {
-  beforeEach(module('myApp.version'));
+  beforeEach(module('AMS.version'));
 
   describe('interpolate filter', function() {
     beforeEach(module(function($provide) {
