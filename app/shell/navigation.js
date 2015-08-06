@@ -20,9 +20,20 @@ angular.module('AMS.navigation', [
     });*/
 
     eehNavigationProvider
-    .menuItem('bar.home', {
+    .menuItem('navbar.home', {
         text: 'Home',
         iconClass: 'fa-home',
         state: 'home'
+    }).menuItem('navbar.mockups', {
+        text: 'Mockups'
+    }).menuItem('navbar.mockups.person', {
+        text: 'Person',
+        state: 'person'
+    }).menuItem('navbar.mockups.contract', {
+        text: 'Contract',
+        state: 'contract'
+    }).menuItem('navbar.mockups.organisation', {
+        text: 'Organisation',
+        state: 'organisation'
     });
 }]);
