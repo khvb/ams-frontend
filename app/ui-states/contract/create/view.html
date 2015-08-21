@@ -1,0 +1,7 @@
+<div class="container col-md-4 col-md-offset-4" ng-controller="NewContractController as vm">
+    <form novalidate>
+        <formly-form model="vm.rental" fields="vm.rentalFields" form="vm.rentalForm">
+            <button type="submit" class="btn btn-primary" ng-disabled="vm.rentalForm.$invalid">Submit</button>
+        </formly-form>
+    </form>
+</div>
