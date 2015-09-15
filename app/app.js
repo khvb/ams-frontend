@@ -9,6 +9,8 @@ angular.module('AMS', [
     'AMS.navigation',
     'AMS.new.contract.controller',
     'AMS.new.contract.model',
+    'AMS.new.person.controller',
+    'AMS.new.org.controller'
 ])
     .run(['$state', function ($state) {
         $state.go('home');

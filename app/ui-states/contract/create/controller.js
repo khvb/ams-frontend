@@ -80,7 +80,7 @@ angular.module('AMS.new.contract.controller', ['formly', 'formlyBootstrap'])
                         label: 'Currency',
                         // Select the currency
                         options: currency.getCurrencies()
-                    },
+                    }
                 },
                 {
                     key: 'start',

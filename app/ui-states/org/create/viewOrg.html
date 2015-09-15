@@ -1,0 +1,7 @@
+<div class="container col-md-4 col-md-offset-4" ng-controller="newOrgController as vmO">
+    <form novalidate>
+        <formly-form model="vmO.model" fields="vmO.fields" form="vmO.form">
+            <button type="submit" class="btn btn-primary" ng-disabled="vmO.form.$invalid">Submit</button>
+        </formly-form>
+    </form>
+</div>

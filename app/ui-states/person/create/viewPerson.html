@@ -1,0 +1,7 @@
+<div class="container col-md-4 col-md-offset-4" ng-controller="newPersonController as vmP">
+    <form novalidate>
+        <formly-form model="vmP.model" fields="vmP.fields" form="vmP.form">
+            <button type="submit" class="btn btn-primary" ng-disabled="vmP.form.$invalid">Submit</button>
+        </formly-form>
+    </form>
+</div>

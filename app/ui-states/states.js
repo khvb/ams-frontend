@@ -10,12 +10,12 @@ angular.module('AMS.states', ['ui.router'])
 
             $stateProvider.state("organisation", {
                 url: '/organisation',
-                template: '<p>Organisation mockup form</p>'
+                templateUrl: "./ui-states/org/create/viewOrg.html"
             });
 
             $stateProvider.state("person", {
                 url: '/person',
-                template: '<p>Person mockup form</p>'
+                templateUrl: "./ui-states/person/create/viewPerson.html"
             });
 
             $stateProvider.state("contract", {
